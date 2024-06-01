@@ -1,61 +1,67 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pruthviraj (Pruthvi) Acharya</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruthviraj Acharya - Researcher in Earth and Space Science</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, p, ul, li, a { margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; color: #333; line-height: 1.6; }
+        container { width: 80%; margin: auto; overflow: hidden; }
+
+        /* Typography and Colors */
+        header { background: #005691; color: #fff; padding-top: 30px; padding-bottom: 10px; text-align: center; }
+        header h1 { font-size: 2.5em; }
+        nav { background: #03396c; text-align: center; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; text-transform: uppercase; font-weight: bold; }
+        nav a:hover { background: #011f4b; }
+
+        /* Sections */
+        section { padding: 20px; margin-top: 20px; background: white; box-shadow: 0 0 10px #ccc; }
+        section h2 { color: #03396c; margin-bottom: 10px; }
+        footer { text-align: center; padding: 20px 0; background: #021f30; color: white; }
+
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            body { padding: 0; }
+            container { width: 95%; }
+            nav a { padding: 10px; font-size: 0.8em; }
+        }
+    </style>
 </head>
 <body>
-    <nav class="container-fluid">
-        <ul>
-            <li><strong>Pruthviraj (Pruthvi) Acharya</strong></li>
-        </ul>
-        <ul>            
-            <li><a href="mailto:pruthvi.acharya.54@gmail.com">Contact</a></li>
-            <li><a href="https://acharyapruthvi.github.io/Pruthviraj-(Pruthvi)-Acharya-NO_NUMBER.pdf" target="_blank">View CV</a></li>
-        </ul>
+    <header>
+        <h1>Pruthviraj Acharya</h1>
+        <p>Ph.D. Candidate in Earth and Space Science</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="https://acharyapruthvi.github.io/Research_CV.pdf" target="_blank">CV</a> <!-- Update this link with the actual URL of your CV -->
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <main class="container">
-        <div class="grid">
-            <section>
-                <hgroup>
-                    <h2>About Me</h2>
-                </hgroup>
-                <p>Welcome to my digital space, a gateway to my journey and expertise in Planetary Science, with a special emphasis on image analysis. Boasting over 7 years of experience in this intriguing field, I have cultivated a profound understanding of polar atmospheric-surface interactions on Mars. This knowledge has been invaluable, not only in my primary research but also in intersecting areas like computer science and image analysis. My career has been characterized by roles such as a Planetary Scientist and a mentor to undergraduate students, highlighting a fusion of deep technical understanding, forward-thinking leadership, and a intense commitment to education.</p>
-                <h3>Skills</h3>
-                <p>Python (Data Analysis, Data Visualization, Image Processing, Machine Learning) | MATLAB, UNIX (Ubuntu and SHELL coding) | C++ | MS Office Suite | ISIS (Processing raw orbital observations)</p>
-            </section>
-            <section id="publications">
-                <h2>Publications</h2>
-                <p>Here are some of my significant contributions to scientific research:</p>
-                <ul>
-                    <li><a href="https://doi.org/10.1016/j.icarus.2022.115295" target="_blank">Tracking the Northern Seasonal Cap Retreat of Mars Using Computer Vision</a> - Icarus (First Author)</li>
-                    <li><a href="https://doi.org/10.1016/j.icarus.2023.115794" target="_blank">Revelations of Interannual Dune Evolution from the Swiftest Aeolian System on Mars by MRO/HiRISE Long-Term Monitoring</a> - Icarus (Third Author)</li>
-                    <li><a href="https://doi.org/10.3847/25c2cfeb.4db95c67" target="_blank">Solar-System-Wide Significance of Mars Polar Science</a> - Bulletin of the American Astronomical Society (Co-author)</li>
-                </ul>
-            </section>
-            <section id="astrophotography">
-                <h2>Astrophotography</h2>
-                <p>A few images from my astrophotography collection.</p>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/acharyapruthvi/pruthviacharya.github.io/main/10_11_2022.jpg" alt="Astrophotography Image 1">
-                    <figcaption>Full Moon on October 11, 2022</figcaption>
-                </figure>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/acharyapruthvi/pruthviacharya.github.io/main/14_01_2022.jpg" alt="Astrophotography Image 2">
-                    <figcaption>Waxing Gibbous on January 14, 2022</figcaption>
-                </figure>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/acharyapruthvi/pruthviacharya.github.io/main/630_annotated_tiff.jpg" alt="Astrophotography Image 3">
-                    <figcaption>Whirlpool Galaxy (M51)</figcaption>
-                </figure>
-                <!-- Add more images as needed -->
-            </section>
-        </div>
-    </main>
-    <footer class="container">
-        <small><a href="#">LinkedIn</a> • <a href="#">GitHub</a></small>
+    <container>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Pruthviraj Acharya, a Ph.D. candidate in Earth and Space Science at York University, specializing in the study of Mars’ polar regions. My research utilizes advanced computer vision techniques to analyze Martian climate patterns and seasonal dynamics, contributing to our understanding of the planet's unique environmental processes. With a strong background in Physics and Astronomy, I am passionate about mentoring emerging scientists and sharing insights into planetary sciences through my work and teaching. This website showcases my research projects, publications, and my journey in the exciting field of space science.</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>2024: "Tracking the South Polar Seasonal Cap Retreat of Mars Using Computer Vision." Icarus.</li>
+                <li>2023: "Tracking the Northern Seasonal Cap Retreat of Mars Using Computer Vision." Icarus.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:pruthvi.acharya.54@gmail.com">pruthvi.acharya.54@gmail.com</a></p>
+            <p>GitHub: <a href="http://www.github.com/acharyapruthvi">acharyapruthvi</a></p>
+            <p>LinkedIn: <a href="http://www.linkedin.com/in/pruthviraj-acharya-8a231611b">pruthviraj-acharya-8a231611b</a></p>
+        </section>
+    </container>
+    <footer>
+        <p>Copyright &copy; 2023 Pruthviraj Acharya</p>
     </footer>
 </body>
 </html>
