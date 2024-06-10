@@ -33,24 +33,24 @@
 <body>
     <header>
         <h1>Pruthviraj Acharya</h1>
-        <p>Ph.D. Candidate in Earth and Space Science</p>
+        <p>Planetary Scientist and Astrophotographer</p>
     </header>
     <nav>
-        <a href="#about">About</a>
         <a href="https://acharyapruthvi.github.io/Research_CV.pdf" target="_blank">CV</a> <!-- Update this link with the actual URL of your CV -->
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
     </nav>
     <container>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Pruthviraj Acharya, a Ph.D. candidate in Earth and Space Science at York University, specializing in the study of Mars’ polar regions. My research utilizes advanced computer vision techniques to analyze Martian climate patterns and seasonal dynamics, contributing to our understanding of the planet's unique environmental processes. With a strong background in Physics and Astronomy, I am passionate about mentoring emerging scientists and sharing insights into planetary sciences through my work and teaching. This website showcases my research projects, publications, and my journey in the exciting field of space science.</p>
+            <p>HHello! I'm Pruthviraj Acharya, specializing in the study of Mars' polar regions at York University. My research utilizes advanced computer vision techniques to analyze Martian climate patterns and seasonal dynamics, contributing to our understanding of the planet's unique environmental processes. With a strong background in Physics and Astronomy, I am passionate about mentoring emerging scientists and sharing insights into planetary sciences through my work and teaching. This website showcases my research projects, publications, and my journey in the exciting field of space science.</p>
         </section>
         <section id="publications">
             <h2>Publications</h2>
             <ul>
-                <li>2024: "Tracking the South Polar Seasonal Cap Retreat of Mars Using Computer Vision." Icarus.</li>
-                <li>2023: "Tracking the Northern Seasonal Cap Retreat of Mars Using Computer Vision." Icarus.</li>
+                <li>2024: <strong>Acharya, P. J.</strong>, Smith, I. B., & Calvin, W. M. (2024). "Tracking the South Polar Seasonal Cap Retreat of Mars Using Computer Vision." <em>Icarus.</em> <a href="https://doi.org/10.1016/j.icarus.2024.116104" target="_blank">DOI: 10.1016/j.icarus.2024.116104</a> - Front Cover of Issue</li>
+                <li>2023: <strong>Acharya, P. J.</strong>, Smith, I. B., & Calvin, W. M. (2023). "Tracking the Northern Seasonal Cap Retreat of Mars Using Computer Vision." <em>Icarus,</em> vol. 390, Jan. 2023, p. 115295. <a href="https://doi.org/10.1016/j.icarus.2022.115295" target="_blank">DOI: 10.1016/j.icarus.2022.115295</a></li>
+                <li>2023: Chojnacki, M., Vaz, D. A., <strong>Acharya, P. J.</strong>, Silvestro, S., & Smith, I. B. (2023). "Revelations of Interannual Dune Evolution from the Swiftest Aeolian System on Mars by MRO/HiRISE Long-Term Monitoring." <em>Icarus,</em> pages 115863. <a href="https://doi.org/10.1016/j.icarus.2023.115863" target="_blank">DOI: 10.1016/j.icarus.2023.115863</a></li>
+                <li>2023: Landis, M. E., <strong>Acharya, P. J.</strong>, Alsaeed, N. R., et al. (2023). "Polar Science Results from Mars Reconnaissance Orbiter: Multiwavelength, Multiyear Insights." <em>Icarus,</em> pages 115794. <a href="https://doi.org/10.1016/j.icarus.2023.115794" target="_blank">DOI: 10.1016/j.icarus.2023.115794</a></li>
+                <li>2020: Guzewich, S. D., Smith, I. B., Smith, D. E., Diniega, S., et al. including <strong>Acharya, P. J.</strong> (2020). "Solar-System-Wide Significance of Mars Polar Science."</li>
             </ul>
         </section>
         <section id="contact">
@@ -61,7 +61,10 @@
         </section>
     </container>
     <footer>
-        <p>Copyright &copy; 2023 Pruthviraj Acharya</p>
+        <p>Copyright &copy; <span id="copyright-year"></span> Pruthviraj Acharya</p>
     </footer>
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
